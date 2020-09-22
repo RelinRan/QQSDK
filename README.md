@@ -2,7 +2,7 @@
 基于官方SDK进行集成，因此名字还是使用官方，主要方便开发者QQ登录和分享的使用。
 
 ## 方法一  ARR依赖
-[TencentSDK.arr](https://github.com/RelinRan/TencentSDK/blob/master/TencentSDK.aar)
+[TencentSDK.arr](https://github.com/RelinRan/TencentSDK/blob/master/QQSDK.aar)
 ```
 android {
     ....
@@ -16,7 +16,7 @@ android {
 dependencies {
     implementation 'com.android.support:design:26.+'   26.+版本根据自己的设置不能低于26
     implementation 'com.android.support:recyclerview-v7:26.+'//26.+版本根据自己的设置不能低于26
-    implementation(name: 'TencentSDK', ext: 'aar')
+    implementation(name: 'QQSDK', ext: 'aar')
 }
 
 ```
@@ -34,7 +34,7 @@ dependencies {
 ### B.项目/app/build.grade
 ```
 	dependencies {
-	        implementation 'com.github.RelinRan:TencentSDK:1.0.0'
+	        implementation 'com.github.RelinRan:SDK:1.0.0'
 	        implementation 'com.android.support:design:26.+'
 	        implementation 'com.android.support:recyclerview-v7:26.+'
 	}
