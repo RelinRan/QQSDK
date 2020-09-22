@@ -2,7 +2,7 @@
 基于官方SDK进行集成，因此名字还是使用官方，主要方便开发者QQ登录和分享的使用。
 
 ## 方法一  ARR依赖
-[QQSDK.arr](https://github.com/RelinRan/TencentSDK/blob/master/QQSDK.aar)
+[QQSDK.arr](https://github.com/RelinRan/QQSDK/blob/master/QQSDK.aar)
 ```
 android {
     ....
